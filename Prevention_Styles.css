@@ -1,0 +1,72 @@
+  
+*{
+     margin:0;
+     padding:0;
+
+}
+.main{
+widows: 1170px;
+
+}
+header{
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Imazhet/bg.jpg");
+height:100vh;
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.nav-area{
+float: right;
+list-style: none;
+margin-top:40px;
+
+}    
+
+.nav-area li{
+display: inline-block;
+}
+.nav-area li a{
+color: #fff5ff;
+text-decoration: none;
+padding: 5px 40px;
+font-family:poppins;
+font-size:25px;
+
+
+}
+
+.logo img{
+width: 150px;
+float:left;
+height: 50px;
+}
+
+.Info_Covid_div
+{
+     color: #fff;
+     padding-top: 200px;
+     width: 950;
+     margin:  auto auto;
+     font-size: 30PX;
+}
+
+.qoute{
+position:absolute;
+width:600px;
+height: 300px;
+margin:20% 30%;
+}
+.qoute h2{
+text-align: center;
+color:grey ;
+text-transform:uppercase;
+font-size: 35px;
+border: 1px solid #fff;
+margin-top: 20px;
+
+}
+
+
+
+ 
