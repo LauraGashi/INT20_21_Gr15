@@ -88,16 +88,21 @@ margin-top: 20px;
      text-align: center;
      padding-top: 80px;
      color: #fff;
-     font-size: 25px;
    }
-
-     
-     .img1 {
-           background-image: url("Imazhet/Hand_Washing.jpg"); 
-           height: 650px;
-          }
-     .img2 
-     { 
-          background-image: url("Imazhet/mask.jpg"); 
-          height: 650px;
-     }
+.bg-image .bg-image2
+{
+     width: 300px;
+     margin-left: 30px;
+}
+.bg-image .bg-image2 img
+{
+     margin-left: 15px;
+}
+.bg-image h1
+{
+     padding-top: 220px;
+     float: left;
+     font-size: 22px;
+     color: black;
+}
+    
