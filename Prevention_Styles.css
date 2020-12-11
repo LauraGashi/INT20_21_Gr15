@@ -105,4 +105,26 @@ margin-top: 20px;
      font-size: 22px;
      color: black;
 }
-    
+.bg-image h2
+{
+     width: 200px;
+     margin-left: 40px;
+}
+.bg-image li 
+{
+     display: inline-block;
+}
+
+header .virusi
+{
+     float: right;
+     width: 100px;
+     height: 20px;
+     background: transparent;
+}
+
+header .virusi:hover
+{
+     width: 200px;
+     transition: 2s;
+}
