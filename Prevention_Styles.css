@@ -128,3 +128,27 @@ header .virusi:hover
      width: 200px;
      transition: 2s;
 }
+
+.bg-image .duartë
+{
+     border: none;
+     color: white;
+     padding: 10px 62px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     margin: 170px 2px;
+     cursor: pointer;
+     background-color: blue;
+}
+
+header .soap h2
+{
+     width: 150px;
+     margin-left: 30px;
+}
+header .soap li 
+{
+     display: inline-block;
+}
