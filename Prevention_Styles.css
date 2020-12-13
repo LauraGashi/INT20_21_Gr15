@@ -119,14 +119,20 @@ header .virusi
 {
      float: right;
      width: 100px;
-     height: 20px;
-     background: transparent;
+     height: 50px;
+     background-color: aqua;
 }
 
 header .virusi:hover
 {
-     width: 200px;
-     transition: 2s;
+     width: 100px;
+     transition-duration: 1s;
+     transform: none;
+}
+
+ header .virusi li a
+{
+     width: 100px;
 }
 
 .bg-image .duartë
@@ -143,12 +149,19 @@ header .virusi:hover
      background-color: blue;
 }
 
-header .soap h2
+.soap h2
 {
-     width: 150px;
-     margin-left: 30px;
+     width: 200px;
+     margin-left: 20px;
 }
-header .soap li 
+
+.soap li 
 {
+
      display: inline-block;
+}
+
+.duartë a
+{
+     text-decoration: none;
 }
