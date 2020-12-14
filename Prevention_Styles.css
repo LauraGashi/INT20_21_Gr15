@@ -34,14 +34,18 @@ margin-top:20px;
 .nav-area li{
 display: inline-block;
 }
+
 .nav-area li a{
 color: #fff;
 text-decoration: none;
-padding: 5px 40px;
+padding: 5px 20px;
 font-family:poppins;
 font-size:25px;
+}
 
-
+ .nav-area li a:hover
+{
+     font-size: 30px;
 }
 
 .logo img{
