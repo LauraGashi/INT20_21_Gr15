@@ -45,7 +45,7 @@ font-size:25px;
 
  .nav-area li a:hover
 {
-     font-size: 30px;
+     opacity: .6;
 }
 
 .logo img{
@@ -182,3 +182,4 @@ header .virusi:hover
      width: 800px;
      padding-top: 40px;
 }
+
