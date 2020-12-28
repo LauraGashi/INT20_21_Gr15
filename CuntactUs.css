@@ -53,6 +53,27 @@ widows: 1170px;
 {
     width: 400px;
     height: 200px;
-    margin-left: 50px;
+    margin-left: 100px;
     padding-top: 200px;
+}
+
+.Contact h1
+{
+    font-size: 45px;
+}
+
+.Contact h3
+{
+    font-size: 25px;
+}
+
+.name
+{
+    text-align: right;
+    margin-right: 150px;
+  
+}
+.name h1
+{
+    font-size: 40px;
 }
