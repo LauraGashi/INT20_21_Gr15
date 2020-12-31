@@ -8,7 +8,7 @@
      box-sizing: border-box;
    }
    header{
-     background-color: antiquewhite;
+     background-color: white;
      height:100vh;
      background-size: cover;
      background-position: center;
@@ -20,8 +20,6 @@
 widows: 1170px;
 
 }
-
-
 
 .nav-area{
 float: right;
@@ -62,14 +60,10 @@ height: 50px;
      font-size: 25px;
      text-overflow: clip;
      text-justify: auto;
-     text-align: left;
+     text-align: center;
 }
 
-.Info_Covid_div img
-{
-     position: relative;
-     margin: 20px 20px;
-}
+
 
 
 .qoute{
@@ -119,6 +113,7 @@ margin-top: 20px;
 {
      width: 200px;
      margin-left: 40px;
+     color: black;
 }
 .bg-image li 
 {
@@ -127,6 +122,7 @@ margin-top: 20px;
 
 header .virusi
 {
+
      float: right;
      width: 100px;
      height: 50px;
