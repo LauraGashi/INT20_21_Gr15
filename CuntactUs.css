@@ -72,7 +72,10 @@ widows: 1170px;
 {
     font-size: 25px;
 }
-
+.Contact h4
+{
+    front-size: 25px;
+}
 .name
 {
     text-align: right;
