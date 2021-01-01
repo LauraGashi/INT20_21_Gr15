@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
   header{
-    background-color: antiquewhite;
+    background-color: white;
     height:100vh;
     background-size: cover;
     background-position: center;
@@ -60,6 +60,12 @@ widows: 1170px;
 .Contact h1
 {
     font-size: 45px;
+}
+
+.Contact h2
+{
+   front-size : 25px;
+
 }
 
 .Contact h3
