@@ -16,9 +16,30 @@
      }
    
 
-.main{
-widows: 1170px;
+.header{ grid-area: header;}
 
+.footer{ grid-area: footer;}
+
+.footer
+{    height: 350px;
+     width: 100%;
+     background-color:#F6DDCC;
+     margin-top: 30px;
+}
+
+.footer table th
+{
+     font-size: 30px;
+}
+.footer table tr td
+{
+     text-align: center;
+     font-size: 20px;
+}
+
+.footer table tr td img
+{
+     margin-left: 30px;
 }
 
 .nav-area{
