@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
   header{
-    background-color: antiquewhite;
+    background-color: white;
     height:100vh;
     background-size: cover;
     background-position: center;
@@ -62,11 +62,20 @@ widows: 1170px;
     font-size: 45px;
 }
 
+.Contact h2
+{
+   front-size : 25px;
+
+}
+
 .Contact h3
 {
     font-size: 25px;
 }
-
+.Contact h4
+{
+    front-size: 25px;
+}
 .name
 {
     text-align: right;
