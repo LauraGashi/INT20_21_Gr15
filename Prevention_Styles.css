@@ -34,6 +34,9 @@
 .footer table tr td
 {
      text-align: center;
+     column-rule-style: solid;
+     column-rule-color: lightblue;
+     overflow: auto;
      font-size: 20px;
 }
 
