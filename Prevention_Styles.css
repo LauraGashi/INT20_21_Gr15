@@ -8,11 +8,11 @@
      box-sizing: border-box;
    }
    header{
-     background-color: white;
-     height:100vh;
-     background-size: cover;
-     background-position: center;
-     position: relative;
+
+          font-family: Poppins, Helvetica, sans-serif;
+          overflow-x:hidden;
+          background-size: 15px!important;
+          background: url("Imazhet/bg-dot.png") repeat 50%;
      }
    
 
@@ -20,49 +20,163 @@
 
 .footer{ grid-area: footer;}
 
-.footer
-{    height: 350px;
-     width: 100%;
-     background-color:#F6DDCC;
-     margin-top: 30px;
-}
+.footer{
+     background-color: #1c1c1c;
+     height: 250px;
+     position: relative;
+     padding: 15px 10%;
+     }
 
-.footer table th
-{
-     font-size: 30px;
-}
-.footer table tr td
-{
-     text-align: center;
-     column-rule-style: solid;
-     column-rule-color: lightblue;
-     overflow: auto;
-     font-size: 20px;
-}
+.footer .footer-bottom{
+         text-align: left;
+         border-top: 1px solid #303030;
+         padding: 0 10%;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 12px;
+         line-height: 40px;
+         color: #666666;
+     }
 
-.footer table tr td img
-{
-     margin-left: 30px;
-}
+.footer .footer-content{
+         border-bottom: 1px solid #000000;
+         height: 200px;
+         display: flex;
+     }
+
+.footer .footer-content .footer-section{
+         flex:1;
+         padding:0px 20px 20px 20px;
+     }
+
+.footer .footer-content h4{
+         font-size: 12px;
+         line-height: 14px;
+         color: white;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+     }
+
+.footer .footer-content p{
+         font-size: 12px;
+         line-height: 19px;
+         color: #fff;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+     }
+
+.footer .footer-section span {
+         font-size: 10px;
+         line-height: 12px;
+         color: #666666;
+         font-family: "Georgia";
+     }
+
+.footer .footer-content .latest p{
+         display: block;
+         margin-bottom: 30px;
+         border-bottom: 1px #232323;
+         font-size: 12px;
+         line-height: 14px;
+         color: #666666;
+         font-family: "Georgia";
+     }
+
+.footer .footer-content .latest br{
+         font-size: 10px;
+         line-height: 12px;
+         color: #666666;
+         font-family: "Georgia";
+     }
+
+.footer .footer-content img{
+         float: left;
+         margin-right: 10px;
+     }
+
+.footer .footer-content .links ul {
+         display: block;
+         padding: 0;
+     }
+
+.footer .footer-content .links ul a{
+         border-bottom: 1px solid #232323;        
+         color:#2aa2d4;
+         text-decoration: none;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 12px;
+         line-height: 30px;
+     }
+
+.footer .footer-content .links ul a:hover{
+         color:white;
+         list-style: none;
+         margin-left: 15px;
+         transition: all .3s;
+     }
+
+.forma .hapesira{
+         border: 0px;
+         margin-bottom: 10px;
+         width: 225px;
+         height: 31px;
+         border-radius: 7px;
+         background-color: #232323;
+         font-size: 13px;
+         line-height: 21px;
+         color: #666666;
+         font-family: "Georgia";
+     }
+
+input[type=submit]{
+         border: 0px;
+         font-size: 13px;
+         line-height: 21px;
+         color: #ffffff;
+         font-family: "Georgia";
+         width: 76px;
+         height: 31px;
+         border-radius: 7px;
+         background-color: #2aa2d4;
+     }
+
+textarea{
+         border: 0px;
+         width: 225px;
+         height: 110px;
+         border-radius: 7px;
+         background-color: #232323;
+         font-size: 13px;
+         line-height: 21px;
+         color: #666666;
+         font-family: "Georgia";
+     }
+
+.footer .footer-content .links ul li{
+         list-style: none;
+     }
+
+.footer .footer-content .links ul li:before{
+         content: '\00BB';
+         color:#666666;
+     }
+ 
 
 .nav-area{
-float: right;
-list-style: none;
-margin-top:20px;
+     float: right;
+     list-style: none;
+     margin-top:20px;
 
 
 }    
 
 .nav-area li{
-display: inline-block;
+     display: inline-block;
 }
 
 .nav-area li a{
-color: black;
-text-decoration: none;
-padding: 5px 20px;
-font-family:poppins;
-font-size:25px;
+     color: black;
+     text-decoration: none;
+     padding: 5px 20px;
+     font-family:poppins;
+     font-size:25px;
 }
 
  .nav-area li a:hover
@@ -71,9 +185,9 @@ font-size:25px;
 }
 
 .logo img{
-width: 150px;
-float:left;
-height: 50px;
+     width: 150px;
+     float:left;
+     height: 50px;
 }
 
 .Info_Covid_div
@@ -91,25 +205,21 @@ height: 50px;
 
 
 .qoute{
-position:absolute;
-width:600px;
-height: 300px;
-margin:20% 30%;
+     position:absolute;
+     width:600px;
+     height: 300px;
+     margin:20% 30%;
 }
 .qoute h2{
-text-align: center;
-color:grey ;
-text-transform:uppercase;
-font-size: 35px;
-border: 1px solid #fff;
-margin-top: 20px;
-
+     text-align: center;
+     color:grey ;
+     text-transform:uppercase;
+     font-size: 35px;
+     border: 1px solid #fff;
+     margin-top: 20px;
 }
 .bg-image {
-     /* Full height */
      height: 50%; 
-     
-     /* Center and scale the image nicely */
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -161,7 +271,7 @@ button
 
 button:hover
 {
-    cursor: pointer;
+     cursor: pointer;
      background-color: lightblue;
 }
 
