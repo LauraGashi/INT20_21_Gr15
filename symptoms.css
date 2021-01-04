@@ -1,0 +1,94 @@
+
+
+body { 
+background-color:white;
+}
+h1 {
+
+text-align:center;
+font-family:Dancing script,cursive;
+font-size: 50px;
+}
+
+
+h2{
+    text-align:center;
+    font-family:Dancing script,cursive;
+}
+
+.Old {
+font-family: Dosis;
+margin: 60px;
+font-size: 20px;
+}
+
+.Old fieldset{  
+width: 350px;
+background-color: rgb(250, 237, 237);
+border-radius: 30px;
+}
+
+.Old legend {
+    margin: 0px auto;
+    text-transform: lowercase;
+    font-style: italic;
+    padding-bottom: 6px;
+    color:teal;
+}
+ 
+.email { float: left;
+margin-bottom: 30px; 
+}
+.email p {
+    margin-left: 10px;
+    vertical-align:top;
+    font-weight: 600;
+    font-style: oblique;
+    font-size: 23px;
+    padding-left: 10px;
+    
+}
+
+.COVID-19 p{ 
+    font-weight:500;}
+
+table {
+    background-color:rgb(250, 237, 237);
+}
+  .email label {
+
+    display:block;
+    margin-bottom: 10px;
+    padding: 28px 10px;
+    font-weight: 300;
+    font-size: medium;
+
+}
+
+#submit {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #fe7095;
+    padding:5px 20px;
+    margin: 10px 10px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    
+}
+
+#email {
+    width:90%;
+    padding: 7px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.content {
+    
+    margin-left: 700px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+a:link{color:rebeccapurple;}
+a:active{color:red;}
+a:hover{opacity: 0.6;}
