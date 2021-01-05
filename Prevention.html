@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prevention</title>
     <link rel="stylesheet" href="Prevention_Styles.css">
+
+    <script>
+        function allowDrop(ev) {
+          ev.preventDefault();
+        }
+        
+        function drag(ev) {
+          ev.dataTransfer.setData("text", ev.target.id);
+        }
+        
+        function drop(ev) {
+          ev.preventDefault();
+          var data = ev.dataTransfer.getData("text");
+          ev.target.appendChild(document.getElementById(data));
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -33,6 +49,11 @@
                 </button>
             </a></li>
         </div>
+        <div class="virusi1">
+            <img src="Imazhet/virus1.jpg" style="width: 60px; height: 60px;"
+            draggable="true" ondragstart="drag(event)" id="drag1">
+        </div>
+        <div class="virusi2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
     </header>
     <div class="bg-image img1" style="height: 650px; background-image:linear-gradient(white, #B3B6B7)">
        <li>
@@ -57,7 +78,7 @@
         </li>
        
         <div class="duartë">
-            <li><a href="hand.html" style="color: white;">Check how you wash hand</a></li>
+            <li><a href="hand.html" target="_blank" style="color: white;">Check how you wash hand</a></li>
         </div>
     </div>
     <div class="bgg-image" style="height: 650px; background-color: #B3B6B7;">

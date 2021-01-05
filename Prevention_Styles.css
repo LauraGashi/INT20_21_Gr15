@@ -181,7 +181,8 @@ textarea{
 
  .nav-area li a:hover
 {
-     opacity: .6;
+     background: #fff; 
+     color:aqua;
 }
 
 .logo img{
@@ -201,23 +202,27 @@ textarea{
      text-align: center;
 }
 
+.virusi1 {
+     position: relative;
+     animation-name: example;
+     animation-duration: 5s;
+     animation-iteration-count: 3;
+   }
+   
+   @keyframes example {
+     0%   { left:0px; bottom:0px;}
+     75%  { left:0px; bottom:300px;}
+     100% { left:0px; bottom:0px;}
+   }
+   .virusi2 {
+     float: left;
+     width: 80px;
+     height: 80px;
+     margin: 10px;
+     padding: 10px;
+     border: 1px solid black;
+   }
 
-
-
-.qoute{
-     position:absolute;
-     width:600px;
-     height: 300px;
-     margin:20% 30%;
-}
-.qoute h2{
-     text-align: center;
-     color:grey ;
-     text-transform:uppercase;
-     font-size: 35px;
-     border: 1px solid #fff;
-     margin-top: 20px;
-}
 .bg-image {
      height: 50%; 
      background-position: center;
