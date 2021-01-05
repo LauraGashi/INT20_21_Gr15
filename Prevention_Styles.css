@@ -311,6 +311,12 @@ button:hover
      text-decoration: none;
 }
 
+.duartë:hover
+{
+     
+     transform: rotateY(180deg);
+}
+
 .bgg-image h1
 {
      margin-left: 30px;
