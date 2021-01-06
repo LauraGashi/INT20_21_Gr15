@@ -10,13 +10,11 @@
     <title>Faqja kryesore</title>
 </head>
 <style>
-    .rreshti1{background-color:rgb(84, 180, 164);}
-   .rreshti2{background-color:#FFFFFF;}
-   .Age{ padding-left:22; padding-right: 10px; text-align: center;}
-   .Hosp{font-style:normal;text-align:center; padding-right: 12px;}
-   .D{padding-right:12px; text-align: center;}
-     
-
+.rreshti1{background-color:rgb(84, 180, 164);}
+.rreshti2{background-color:#FFFFFF;}
+.Age{ padding-left:22; padding-right: 10px; text-align: center;}
+.Hosp{font-style:normal;text-align:center; padding-right: 12px;}
+.D{padding-right:12px; text-align: center;}
 .feature-box{
    width:80%;
    margin:auto;
@@ -52,14 +50,23 @@ width:70%;
    margin-bottom:40px ;
 
 }
-
 .features-text p{
    padding: 0 20px;
    text-align: initial;
-   word-spacing: 4px;
+   word-spacing: 0.5px;
     font: italic 1.2em "Fira Sans", serif;
 }
-
+@media screen and (max-width:770px){
+    .features{
+   flex-basis: 100%;
+}
+.features-table{
+flex-basis:100%;
+}
+.features-table table{
+width:100%;
+}
+}
 </style>
 <body>
 
@@ -134,7 +141,7 @@ width:70%;
 <hr>
             <div class="feature-box">
                 <div class="features">
-                   <h1>COVID-19 Hospitalization and Death by Age</h1>
+                   <h1>Hospitalization and Death by Age</h1>
                 <div class="features-desc">
                      <div class="features-text">
                          <p>
