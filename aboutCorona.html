@@ -9,6 +9,58 @@
 
     <title>Faqja kryesore</title>
 </head>
+<style>
+    .rreshti1{background-color:rgb(84, 180, 164);}
+   .rreshti2{background-color:#FFFFFF;}
+   .Age{ padding-left:22; padding-right: 10px; text-align: center;}
+   .Hosp{font-style:normal;text-align:center; padding-right: 12px;}
+   .D{padding-right:12px; text-align: center;}
+     
+
+.feature-box{
+   width:80%;
+   margin:auto;
+   display:flex;
+   flex-wrap:wrap;
+   align-items:center;
+   text-align: center;
+}
+.features{
+   flex-basis: 50%;
+}
+
+.features-table{
+flex-basis:40%;
+margin:auto;
+}
+.features-table table{
+width:70%;
+}
+
+.features h1{
+   text-align:center;
+   margin-bottom: 10px;
+   font-weight:100;
+   color: none;
+   hover: black;
+   link:black;
+}
+
+.features-desc{
+   display: flex;
+   align-items:center;
+   margin-bottom:40px ;
+
+}
+
+.features-text p{
+   padding: 0 20px;
+   text-align: initial;
+   word-spacing: 4px;
+    font: italic 1.2em "Fira Sans", serif;
+}
+
+</style>
 <body>
 
 <header>
@@ -37,7 +89,7 @@
                 <div class="div1">
                     
                     <article>
-                        <img src="data:image/jpeg;base64,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" title="How to Protect Yourself" class="foto1">
+                        <img src="https://caretowardscure.com/wp-content/uploads/2020/06/doctors-list-covid-19-coronavirus-prevention-cute-illustration_107355-169.jpg" title="How to Protect Yourself" class="foto1">
                         <h3>How to Protect Yourself</h3>
                         <p style="font-style: normal; font-size: 20px;">  <ul>
                             <li>Clean your hands often.</li>
@@ -48,7 +100,7 @@
                         </p>
                     </article>
                     <article>
-                        <a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/older-adults.html"><img src="Imazhet/older-patient-with-caregiver-at-home-small.jpg"  title="People at Increased Risk for Severe Illness" class="foto1"></a>
+                        <a href="coding.html"><img src="Imazhet/older-patient-with-caregiver-at-home-small.jpg"  title="People at Increased Risk for Severe Illness" class="foto1"></a>
                         <h3>People at Increased Risk for Severe Illness  </h3>
                         <p style="font-style: oblique; font-size: 20px;"> 
                             Some people are more likely than others to become severely ill
@@ -65,8 +117,7 @@
                         <h3>Quarantine&Isolation</h3>
                          <p><strong>Quarantine</strong> keeps someone who might have been exposed to the virus away from others.
                             <mark>Isolation</mark> keeps someone who is infected with the virus away from others, even in their home.
-                            People who have tested positive for COVID-19 within the past 3 months and recovered do not have to quarantine or get tested again as long as they do not develop new symptoms. People who develop symptoms again within 3 months of their first bout of COVID-19 may need to be tested again if there is no other cause identified for their symptoms.
-                          </p>
+                            People who have tested positive for COVID-19 within the past 3 months and recovered do not have to quarantine or get tested again as long as they do not develop new symptoms. People who develop symptoms again within 3 months of their first bout of COVID-19 may need to be tested again if there is no other cause identified for their symptoms.</p>
                         
 
                     </article>
@@ -79,45 +130,132 @@
                     </article>  
                 </div>
             </section>
-            <footer class="footer">
-                <div class="footer-content">
-                    <div class="footer-section company">
-                        <h4>HAVE QUESTIONS?</h4>
-                        <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
-                        <div class="contact">
-                            <p>Call: 0800-232-4636<br>Email: <a href="CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p>
+
+<hr>
+            <div class="feature-box">
+                <div class="features">
+                   <h1>COVID-19 Hospitalization and Death by Age</h1>
+                <div class="features-desc">
+                     <div class="features-text">
+                         <p>
+                            A small proportion of excess deaths are indirect, a result of the conditions created by the impact of the pandemic,rather than because
+                            of the virus itself (see ‘Deaths from other causes’).Some hospitals report that people with cancer and chronic conditions
+                             are skipping their regular check-ups, which could put their health in jeopardy. Reports of domestic violence have increased in 
+                             some places, and researchers who study mental health worry about the toll on front-line workers and those living under lockdown 
+                             measures, although it’s not yet clear whether there has been a rise in the number of deaths as a result.
+                         </p>
+                     </div>
+                </div>
+                </div>
+                
+                <div class="features-table">
+                    <table >
+                        <tr class="rreshti1">
+                        <td class="Age">Age</td>
+                        <td class="Hosp">Hospitalization</td>
+                        <td class="D">Death</td>
+                        </tr>
+                        
+                        <tr class="rreshti2" >
+                        <td class="Age">0-4 years</td>
+                        <td class="Hosp">4x lower</td>
+                        <td class="D">9x lower</td>
+                        </tr>
+                        
+                        <tr class="rreshti1">
+                        <td class="Age">5-17 years</td>
+                        <td class="Hosp">9x lower</td>
+                        <td class="D">16x lower</td>
+                        </tr>
+                        
+                        <tr class="rreshti2">
+                        <td class="Age">18-29 years</td>
+                        <td class="Hosp">Comparison Group</td>
+                        <td class="D">Comparison Group</td>
+                        </tr>
+                        
+                        <tr class="rreshti1">
+                        <td class="Age">30-39 years</td>
+                        <td class="Hosp">2x higher</td>
+                        <td class="D">4x higher</td>
+                        </tr>
+                        
+                        <tr class="rreshti2">
+                        <td class="Age">40-49 years</td>
+                        <td class="Hosp">3x higher</td>
+                        <td class="D">10x higher</td>
+                        </tr>
+                        
+                        <tr class="rreshti1">
+                        <td class="Age">50-64 years</td>
+                        <td class="Hosp">4x higher</td>
+                        <td class="D">30x higher</td>
+                        </tr >
+                        
+                        <tr class="rreshti2">
+                        <td class="Age">65-74 years</td>
+                        <td class="Hosp">5x higher</td>
+                        <td class="D">90x higher</td>
+                        </tr>
+                        
+                        <tr class="rreshti1">
+                        <td class="Age">75-84 years</td>
+                        <td class="Hosp">8x higher</td>
+                        <td class="D">220x higher</td>
+                        </tr >
+                        
+                        <tr class="rreshti2">
+                        <td class="Age">85+ years</td>
+                        <td class="Hosp">13x higher</td>
+                        <td class="D">630x higher</td>
+                        </tr>
+                        </table>
+                    </div>
+                 </div>
+                
+                 <footer class="footer">
+                    <div class="footer-content">
+                        <div class="footer-section company">
+                            <h4>HAVE QUESTIONS?</h4>
+                            <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
+                            <div class="contact">
+                                <p>Call: 0800-232-4636<br>Email: <a href="CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p>
+                            
+                            </div>
                         
                         </div>
-                    
+                       
+    
+                       
+                            
+                        <div class="footer-section links">
+                            <h4> Links</h4>           
+                            <ul class="list">
+                                <li><a href="#">Help & Support</a></li>
+                                <li><a href="https://www.cdc.gov/Other/policies.html">Privacy Policy</a></li>
+                                <li><a href="#">Location</a></li>
+                                <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">Corona</a></li>
+                            </ul></div>
+                        
+                    <div class="footer-section contact">
+                        <h4>Contact Us</h4>
+                        <form class="forma" id="forma">
+                            <p>To receive email updates about COVID-19, enter your email address:
+                            </p>
+                            <input type="email" class="hapesira" placeholder="Email">
+                            <input type="submit" value="Submit" class="btn btn-primary">
+    <p>
+    <a href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days" target="_blank">Cases in the last 7 days</a>
+    </p>
+    
+                        </form>
                     </div>
-                   
-                     
-                    <div class="footer-section links">
-                        <h4> Links</h4>           
-                        <ul class="list">
-                            <li><a href="#">Help & Support</a></li>
-                            <li><a href="https://www.cdc.gov/Other/policies.html">Privacy Policy</a></li>
-                            <li><a href="#">Location</a></li>
-                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">Corona</a></li>
-                        </ul></div>
-                    
-                <div class="footer-section contact">
-                    <h4>Contact Us</h4>
-                    <form class="forma" id="forma">
-                        <p>To receive email updates about COVID-19, enter your email address:
-                        </p>
-                        <input type="email" class="hapesira" placeholder="Email">
-                        <input type="submit" value="Submit" class="btn btn-primary">
-<p>
-<a href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days" target="_blank">Cases in the last 7 days</a>
-</p>
+                    </div>
+                    <div class="footer-bottom">
+                        &copy; Copyright Reserved - all rights served 
+                    </div>
+                </footer>
 
-                    </form>
-                </div>
-                </div>
-                <div class="footer-bottom">
-                    &copy; Copyright Reserved - all rights served 
-                </div>
-              </footer>
+            
         </body>
         </html>
