@@ -268,4 +268,18 @@ color: #33334f;
   }
 
 
-  
+  @media screen and (max-width: 600px) {
+    .navigation-aligner{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .topnav {
+      float: right;
+      margin-top: 12px;
+      margin-left: 35px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+  }
+  }
