@@ -1,0 +1,89 @@
+.vaccine {
+width: 430px;
+height: 500px;
+border: 2px solid rgb(135, 138, 135);
+background-color:rgb(40,172,224);
+box-shadow: 5px 3px 8px lightblue;
+
+}
+
+.vaccine-1 {
+    height: 500px;
+    }    
+
+ .Permbajtja h3 {
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+
+}
+.Permbajtja a {color:wheat;}
+.Permbajtja p {
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 40px;
+    font-size: 17px;
+    color: whitesmoke;
+    
+}
+img {
+    object-fit: cover;
+}
+
+.V-13 {
+    width: 430px;
+     height: 500px;
+     border: 2px solid rgb(135, 138, 135);
+     background-color:rgb(40,172,224);
+     box-shadow: 5px 3px 8px lightblue;
+     margin-left: 480px;
+     margin-top: -505px ;
+}
+
+.V-12 {
+    height: 500px;
+}
+.work{
+    width: 400px;
+   height: 350px;
+border: 2px solid rgb(135, 138, 135);
+background-color:rgb(40,172,224);
+box-shadow: 5px 3px 8px lightblue;
+
+} 
+.development {
+    width: 400px;
+   height: 350px;
+border: 2px solid rgb(135, 138, 135);
+background-color:rgb(40,172,224);
+box-shadow: 5px 3px 8px lightblue;
+margin-left: 450px;
+margin-top: -353px ;
+
+}
+.Journey {
+    width: 400px;
+   height: 350px;
+border: 2px solid rgb(135, 138, 135);
+background-color:rgb(40,172,224);
+box-shadow: 5px 3px 8px lightblue;
+margin-left: 900px;
+margin-top: -353px ;
+
+}
+.Learn {
+    width: 250px;
+    margin-left:990px;
+    margin-top: -950px;
+    
+}
+
+.Learn a {
+    text-decoration: none;
+    color:#3399FF;
+    
+}
+.Learn a:hover{
+    opacity: 0.6;
+}
