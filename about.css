@@ -29,7 +29,7 @@ header{
       }
       
       .topnav a {
-        float: right;
+        float: left;
         display: block;
         color: #33334f;
         text-align: center;
