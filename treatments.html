@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- font awesome directory -->
-    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
     <!-- my styles -->
     <link rel="stylesheet" href="treatments.css">
@@ -18,20 +18,21 @@
 </head>
 
 <body>
-    <nav class="topnav" id="myTopnav">
-        <!-- logo -->
-        <a href="index.html"><i class="fas fa-head-side-mask fa-2x"></i></a>
+    <div class="navigation-aligner">
+        <div>
+            <img style="width: 45px; height:65px;" src="imazhet/head-side-mask-solid.svg" alt="">
+        </div>
+        <nav class="topnav" id="myTopnav">
 
-        <a href="index.html">Home</a>
-        <a href="simptomat.html">Symptoms</a>
-        <a href="Prevention.html">Prevention</a>
-        <a href="treatments.html" class="active">Treatments</a>
-        <a href="contact.html">Contact</a>
-
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </nav>
+            <a href="index.html">Home</a>
+            <a href="simptomat.html">Symptoms</a>
+            <a href="Prevention.html">Prevention</a>
+            <a href="treatments.html" class="active">Treatments</a>
+            <a href="ContactUs.html">Contact</a>
+    
+        </nav>
+    </div>
+   
 
 
         <div class="about_slogan">
@@ -43,7 +44,7 @@
             <div class="table_shelve">
                 <div class="tile quote">
                     <div class="box-icon">
-                        <i class="fas fa-procedures fa-5x"></i>
+                       <img src="imazhet/procedures-solid.svg" style="max-width: 100px;max-height: 80px;" alt="treatments">
                     </div>
                     <h3>Treatment</h3>
                     <p>The most common symptoms of COVID-19 are a fever, coughing, and breathing problems. Unless you have severe symptoms, you can most likely treat them at home, the way you would for a cold or the flu. Most people recover from COVID-19 without the need for hospital care. Call your doctor to ask about whether you should stay home or get medical care in person.
@@ -55,7 +56,7 @@
         
                 <div class="tile quote">
                     <div class="box-icon">
-                        <i class="fas fa-home fa-5x"></i>
+                       <img src="imazhet/home-solid.svg" style="max-width: 100px;max-height: 80px;" alt="treatments">
                     </div>
                     <h3>At-Home Coronavirus Treatment</h3>
                     <p>If your symptoms are mild enough that you can recover at home, you should: </p>
@@ -72,7 +73,8 @@
         
                 <div class="tile quote">
                     <div class="box-icon">
-                        <i class="fas fa-disease fa-5x"></i>
+                       <img src="imazhet/disease-solid.svg" style="max-width: 100px;max-height: 80px;" alt="treatments">
+                        
                     </div>
                     <h3>Avoid infecting other people</h3>
                         <ul>
@@ -90,7 +92,8 @@
         
                 <div class="tile quote">
                     <div class="box-icon">
-                        <i class="fas fa-lungs-virus fa-5x"></i>
+                        <img src="imazhet/lungs-virus-solid.svg" style="max-width: 100px;max-height: 80px;" alt="treatments">
+
                     </div>
                     <h3>How do you know if your symptoms are getting worse?</h3>
                     <p>Get medical care right away if you begin to have: </p>
@@ -107,7 +110,8 @@
         
                 <div class="tile quote">
                     <div class="box-icon">
-                        <i class="fas fa-hospital-alt fa-5x"></i>
+                       <img src="imazhet/hospital-alt-solid.svg" style="max-width: 100px;max-height: 80px;" alt="treatments">
+                        
                     </div>
                     <h3>Coronavirus Treatment in a Hospital</h3>
                     <p>You don't need to go to the hospital or ER if you have basic COVID-19 symptoms, like a mild fever or cough. If you do, many hospitals will send you home.</p>
@@ -125,5 +129,48 @@
         
             </div>
         </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section company">
+                    <h4>HAVE QUESTIONS?</h4>
+                    <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
+                    <div class="contact">
+                        <p>Call: 0800-232-4636<br>Email: <a href="CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p>
+                    
+                    </div>
+                
+                </div>
+               
+
+               
+                    
+                <div class="footer-section links">
+                    <h4> Links</h4>           
+                    <ul class="list">
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="https://www.cdc.gov/Other/policies.html">Privacy Policy</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">Corona</a></li>
+                    </ul></div>
+                
+            <div class="footer-section contact">
+                <h4>Contact Us</h4>
+                <form class="forma" id="forma">
+                    <p>To receive email updates about COVID-19, enter your email address:
+                    </p>
+                    <input type="email" class="hapesira" placeholder="Email">
+                    <input type="submit" value="Submit" class="btn btn-primary">
+<p>
+<a href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days" target="_blank">Cases in the last 7 days</a>
+</p>
+
+                </form>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; Copyright Reserved - all rights served 
+            </div>
+        </footer>
     </body>
 </html>
