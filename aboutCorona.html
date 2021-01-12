@@ -4,86 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel='stylesheet' type='text/css' media='screen' href='about.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='finally.css'>
     <script src="https://kit.fontawesome.com/0f92c53527.js" crossorigin="anonymous"></script>
 
     <title>Faqja kryesore</title>
 </head>
-<style>
-.rreshti1{background-color:rgb(84, 180, 164);}
-.rreshti2{background-color:#FFFFFF;}
-.Age{ padding-left:22; padding-right: 10px; text-align: center;}
-.Hosp{font-style:normal;text-align:center; padding-right: 12px;}
-.D{padding-right:12px; text-align: center;}
-.feature-box{
-   width:80%;
-   margin:auto;
-   display:flex;
-   flex-wrap:wrap;
-   align-items:center;
-   text-align: center;
-}
-.features{
-   flex-basis: 50%;
-}
-
-.features-table{
-flex-basis:40%;
-margin:auto;
-}
-.features-table table{
-width:70%;
-}
-
-.features h1{
-   text-align:center;
-   margin-bottom: 10px;
-   font-weight:100;
-   color: none;
-   hover: black;
-   link:black;
-}
-
-.features-desc{
-   display: flex;
-   align-items:center;
-   margin-bottom:40px ;
-
-}
-.features-text p{
-   padding: 0 20px;
-   text-align: initial;
-   word-spacing: 0.5px;
-    font: italic 1.2em "Fira Sans", serif;
-}
-@media screen and (max-width:770px){
-    .features{
-   flex-basis: 100%;
-}
-.features-table{
-flex-basis:100%;
-}
-.features-table table{
-width:100%;
-}
-}
-</style>
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="navbar-container">
-            <ul>
-                <li><a href="front-page.html"> Home</a></li>
-                <li><a href="aboutCorona.html">About</a></li>
-                <li><a href="simptomat.html">Symptoms</a></li>
-                <li><a href="Prevention.html">Prevention</a></li>
-                <li><a href="treatments.html">Treatmens</a></li>
-                <li><a href="ContactUs.html">Contact</a></li>
-            </ul>
+    <div class="navigation-aligner">
+        <nav class="topnav" id="myTopnav">
 
-    </header>
-          
+            <a href="index.html">Home</a>
+            <a href="">About</a>
+            <a href="simptomat.html">Symptoms</a>
+            <a href="Prevention.html">Prevention</a>
+            <a href="treatments.html">Treatments</a>
+            <a href="ContactUs.html">Contact</a>
+    
+        </nav>
+    </div>
+
+<div data-slide="slide" class="slide">
+        
+    <div class="slide-items">
+        <img src="Covid-19_Common_Symptoms.jpg" alt="Symptoms" />
+        <img src="coronavirus-prevention-infographic-vector.jpg" alt="Prevention" />
+        <img src="cu-treatments-webpage-1600x900-final.jpg" alt="Treatments" />
+        <img src="_114241106_vaccineillus976_rtrs.jpg" alt="Vaccine" />
+    </div>
+    
+    <nav class="slide-nav">
+        <div class="slide-thumb">
+         
+        </div>
+        <span class="slide-prev"><img src="left-arrow-2036555-1740209.png" width="50" height="50" border:2px grey; color: grey;></span>
+        <span class="slide-next"><img src="left-arrow-2036555-1740209.png" width="50" height="50" border:2px grey; color: grey;  ></span>
+    </nav>
+
+    <h3 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;"  > All information about COVID-19 can be found on our web site.
+        We keep you informed of the latest, you can also contact us and you will receive emails for any new news.        
+     </h3>
+</div>
+<script src="slider.js"></script>
+         
             <section class="vija">
                 <div class="vija1">
                     <hr>
@@ -107,7 +70,7 @@ width:100%;
                         </p>
                     </article>
                     <article>
-                        <a href="coding.html"><img src="Imazhet/older-patient-with-caregiver-at-home-small.jpg"  title="People at Increased Risk for Severe Illness" class="foto1"></a>
+                        <img src="older-patient-with-caregiver-at-home-small.jpg"  title="People at Increased Risk for Severe Illness" class="foto1"></a>
                         <h3>People at Increased Risk for Severe Illness  </h3>
                         <p style="font-style: oblique; font-size: 20px;"> 
                             Some people are more likely than others to become severely ill
@@ -129,7 +92,7 @@ width:100%;
 
                     </article>
                     <article class="project_article">
-                        <img src="Imazhet/adobestock.jpg" title="COVID-19 Vaccines" class="foto1">
+                        <img src="adobestock.jpg" title="COVID-19 Vaccines" class="foto1">
                         <h3>COVID-19 Vaccines</h3>         
              <p>
                          Depending on the specific vaccine you get, a second shot 3-4 weeks after your first shot is needed to get the most protection the vaccine has to offer against this serious disease.The goal is for everyone to be able to easily get vaccinated against COVID-19 as soon as large enough quantities are available. Once vaccine is widely available, the plan is to have several thousand vaccination providers offering COVID-19 vaccines in doctors’ offices, retail pharmacies, hospitals, and federally qualified health centers. 
@@ -137,88 +100,6 @@ width:100%;
                     </article>  
                 </div>
             </section>
-
-<hr>
-            <div class="feature-box">
-                <div class="features">
-                   <h1>Hospitalization and Death by Age</h1>
-                <div class="features-desc">
-                     <div class="features-text">
-                         <p>
-                            A small proportion of excess deaths are indirect, a result of the conditions created by the impact of the pandemic,rather than because
-                            of the virus itself (see ‘Deaths from other causes’).Some hospitals report that people with cancer and chronic conditions
-                             are skipping their regular check-ups, which could put their health in jeopardy. Reports of domestic violence have increased in 
-                             some places, and researchers who study mental health worry about the toll on front-line workers and those living under lockdown 
-                             measures, although it’s not yet clear whether there has been a rise in the number of deaths as a result.
-                         </p>
-                     </div>
-                </div>
-                </div>
-                
-                <div class="features-table">
-                    <table >
-                        <tr class="rreshti1">
-                        <td class="Age">Age</td>
-                        <td class="Hosp">Hospitalization</td>
-                        <td class="D">Death</td>
-                        </tr>
-                        
-                        <tr class="rreshti2" >
-                        <td class="Age">0-4 years</td>
-                        <td class="Hosp">4x lower</td>
-                        <td class="D">9x lower</td>
-                        </tr>
-                        
-                        <tr class="rreshti1">
-                        <td class="Age">5-17 years</td>
-                        <td class="Hosp">9x lower</td>
-                        <td class="D">16x lower</td>
-                        </tr>
-                        
-                        <tr class="rreshti2">
-                        <td class="Age">18-29 years</td>
-                        <td class="Hosp">Comparison Group</td>
-                        <td class="D">Comparison Group</td>
-                        </tr>
-                        
-                        <tr class="rreshti1">
-                        <td class="Age">30-39 years</td>
-                        <td class="Hosp">2x higher</td>
-                        <td class="D">4x higher</td>
-                        </tr>
-                        
-                        <tr class="rreshti2">
-                        <td class="Age">40-49 years</td>
-                        <td class="Hosp">3x higher</td>
-                        <td class="D">10x higher</td>
-                        </tr>
-                        
-                        <tr class="rreshti1">
-                        <td class="Age">50-64 years</td>
-                        <td class="Hosp">4x higher</td>
-                        <td class="D">30x higher</td>
-                        </tr >
-                        
-                        <tr class="rreshti2">
-                        <td class="Age">65-74 years</td>
-                        <td class="Hosp">5x higher</td>
-                        <td class="D">90x higher</td>
-                        </tr>
-                        
-                        <tr class="rreshti1">
-                        <td class="Age">75-84 years</td>
-                        <td class="Hosp">8x higher</td>
-                        <td class="D">220x higher</td>
-                        </tr >
-                        
-                        <tr class="rreshti2">
-                        <td class="Age">85+ years</td>
-                        <td class="Hosp">13x higher</td>
-                        <td class="D">630x higher</td>
-                        </tr>
-                        </table>
-                    </div>
-                 </div>
                 
                  <footer class="footer">
                     <div class="footer-content">
@@ -227,14 +108,11 @@ width:100%;
                             <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
                             <div class="contact">
                                 <p>Call: 0800-232-4636<br>Email: <a href="CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p>
-                            
+                                <p><a href="registrer.html" target="_blank">Registrer</a></p>
                             </div>
                         
                         </div>
-                       
-    
-                       
-                            
+                                            
                         <div class="footer-section links">
                             <h4> Links</h4>           
                             <ul class="list">
@@ -251,6 +129,8 @@ width:100%;
                             </p>
                             <input type="email" class="hapesira" placeholder="Email">
                             <input type="submit" value="Submit" class="btn btn-primary">
+
+                           
     <p>
     <a href="https://covid.cdc.gov/covid-data-tracker/#cases_casesper100klast7days" target="_blank">Cases in the last 7 days</a>
     </p>
@@ -263,6 +143,6 @@ width:100%;
                     </div>
                 </footer>
 
-            
+                <script src="slider.js"></script> 
         </body>
         </html>
