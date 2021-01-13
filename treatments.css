@@ -6,15 +6,12 @@ body {
     background: url("Imazhet/bg-dot.png") repeat 50%;
 }
 
-.navigation-aligner{
-  display: flex;
-  justify-content: space-around;
-}
 .topnav {
-    float:right;
-    margin-top:12px;
-    margin-left:35px;
-    overflow: hidden;
+  display: flex;
+  margin-top: 12px;
+  margin-left: 35px;
+  overflow: hidden;
+  justify-content: flex-end;
 
   }
   
@@ -63,6 +60,11 @@ body {
   
   .about_slogan p {
     text-align:center;
+  }
+
+
+  .paragraph_style span {
+    font-weight: bold;
   }
 
   .table_row{
@@ -269,13 +271,10 @@ color: #33334f;
 
 
   @media screen and (max-width: 600px) {
-    .navigation-aligner{
-      display: flex;
-      flex-direction: column;
-    }
+
 
     .topnav {
-      float: right;
+    
       margin-top: 12px;
       margin-left: 35px;
       overflow: hidden;
