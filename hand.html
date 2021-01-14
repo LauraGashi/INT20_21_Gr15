@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="video.css">
     <title>Document</title>
+    <style> 
+        @font-face {
+          font-family: myFirstFont;
+          src: url(sansation_light.woff);
+        }
+        
+        @font-face {
+          font-family: myFirstFont;
+          src: url(sansation_bold.woff);
+          font-weight: bold;
+        }
+        
+        div {
+          font-family: myFirstFont;
+        }
+        </style>
 
     <script>
         function clickCounter() {
@@ -50,10 +66,10 @@
         }
         setInterval(changeColor, 1000);
     </script>
-        <h1 id="h1" style="text-align: center;">Follow steps to wash hands</h1>
+        <h1 id="h1" style="text-align: center; margin-top: 50px"; >Follow steps to wash hands</h1>
         <button class="btn1" style="width: 65px; height: 30px; margin-left: 5px;">Hide</button>
         <button class="btn2" style="width: 65px; height: 30px; margin-left: 5px;">Show</button>
-        <div class="soap" style="height: 650px; margin-top: 100px;">
+        <div class="soap" style="height: 300px; margin-top: 100px;">
             <li>
                 <img src="Imazhet/hand-a.png" style="width: 200px; height: 200px; border-radius: 50%;">
                 <h2>Soap on Hands</h2>
