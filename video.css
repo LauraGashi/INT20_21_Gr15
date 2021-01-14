@@ -221,7 +221,7 @@ width: 35px;
     width: 55%;
     position: absolute;
     left: 50%;
-    top: 120%;
+    top: 135%;
     transform: translate(-50%,-50%); 
     display: none;
 }
