@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' type='text/css' media='screen' href='about.css'>
     <script src="https://kit.fontawesome.com/0f92c53527.js" crossorigin="anonymous"></script>
+    <script>
+        function clickCounter() {
+          if (typeof(Storage) !== "undefined") {
+            if (localStorage.clickcount) {
+              localStorage.clickcount = Number(localStorage.clickcount)+1;
+            } else {
+              localStorage.clickcount = 1;
+            }
+            document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+          } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+          }
+        }
+        </script>
 
     <title>Faqja kryesore</title>
 </head>
@@ -107,9 +121,9 @@
                             <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
                             <div class="contact">
                                 <p>Call: 0800-232-4636<br>Email: <a href="mailto:CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p>
-                                <p><a href="registrer.html" target="_blank">Register</a></p>
+                                <p><a href="registrer.html" target="_blank" onclick="clickCounter()">Register</a></p>
+                                <div id="result"></div>
                             </div>
-                        
                         </div>
                                             
                         <div class="footer-section links">
