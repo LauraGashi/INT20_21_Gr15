@@ -342,3 +342,88 @@ button:hover
      margin-bottom: 100px;
 }
 
+.container{
+     width: 50%;
+     margin: 50px auto;
+ }
+ 
+ .container h1{
+     padding: 60px 0;
+     color: #fff;
+     font-size: 44px;
+     text-align: center;
+ }
+ .row{
+     display:flex;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ .col{
+     flex-basis: 50%;
+     min-width: 150px;
+     
+ }
+ 
+ .feature-img{
+     width: 83%;
+     margin: auto;
+     position: relative;
+     border-radius: 6px;
+     overflow: hidden; 
+ }
+ .small-img-row{
+     display: flex;
+     background: #efefef;
+     margin: 20px 0;
+     align-items: center;
+     border-radius: 6px;
+     overflow: hidden;
+     width: 85%;
+ }
+ 
+ .small-img{
+ position: relative;
+ }
+ .small-img img{
+     width: 95px;
+ }
+ 
+ .small-img-row{
+     margin-left: 20px;
+     color:rgba(1, 12, 12, 0.842);
+     line-height: 22px;
+     font-size: 15px;
+ }
+ 
+ .play-btn{
+     width: 60px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%); 
+     cursor: pointer;
+ }
+ 
+ .small-img .play-btn{
+ width: 35px;
+ }
+ 
+ .video-player{
+     width: 55%;
+     position: absolute;
+     left: 50%;
+     top: 120%;
+     transform: translate(-50%,-50%); 
+     display: none;
+ }
+ video:focus{
+     outline: none;
+ }
+ .close-btn{
+     position: absolute;
+     top: 10px;
+     right: 20px;
+     width: 35px;
+     cursor: pointer;
+ }
+ 
