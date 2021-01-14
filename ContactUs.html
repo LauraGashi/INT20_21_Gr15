@@ -12,7 +12,7 @@
             <ul>
                 <div class="nav-area">
                     <li><a href="front-page.html"> Home</a></li>
-                    <li><a href="aboutCorona.html">About Corona</a></li>
+                    <li><a href="aboutCorona.html">About </a></li>
                     <li><a href="simptomat.html">Symptoms</a></li>
                     <li><a href="Prevention.html">Prevention</a></li>
                     <li><a href="treatments.html">Treatmens</a></li>
@@ -44,6 +44,34 @@
             <input type="text" id="Message" name="Message" style="width: 300px; height: 45px;"><br><br>
             <input type="submit" value="Submit" style="width: 150px; height: 30px; font-size: 18px;">
             </form>
+        </div>
+
+        <div class="text">
+
+<br><br><br><br><br><br>
+           <p><h2>Please input the number of days you been feeling sick :</h2></p>
+<input id="demo" type="text">
+<button type="button" onclick="myFunction()">Click</button>
+<p id="p01"></p>
+
+<script>
+function myFunction() {
+  var message, x;
+  message = document.getElementById("p01");
+  message.innerHTML = "";
+  x = document.getElementById("demo").value;
+  try { 
+    if(x == "")  throw "empty";
+    if(isNaN(x)) throw "not a number";
+    x = Number(x);
+    if(x < 0)  throw "not valid";
+    
+  }
+  catch(err) {
+    message.innerHTML = "The message you have put is " + err;
+  }
+}
+</script>
         </div>
     </header>
 </body>
