@@ -33,32 +33,41 @@ widows: 1170px;
 
 
 
-.nav-area
-{
-    float: right;
-    list-style: none;
-    margin-top:20px;
+.topnav {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 35px;
+    overflow: hidden;
+    justify-content: flex-end;
+  
+    }
     
-}   
-
-.nav-area li 
-{
-    display: inline-block;
-}
-
-.nav-area li a
-{
-    color: black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family:poppins;
-    font-size:25px;
-}
+    .topnav a {
+      float: left;
+      display: block;
+      color: #33334f;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 1px;
+      font-weight: 400;
+      text-transform: uppercase;
+      transition: all .25s ease-out;
+    }
     
- .nav-area li a:hover
-{
-    opacity: .6;
-}
+    .topnav a:hover { 
+      opacity: .6;
+    }
+    
+    .topnav a.active {
+      border-bottom: 1px solid #33334f;
+    }
+    
+    .topnav .icon {
+      display: none;
+    }
 
 .Contact 
 {
