@@ -65,7 +65,7 @@
 
         <div class="text">
 
-<br><br><br><br><br><br>
+<br><br><br><br>
            <p><h2>Please input the number of days you been feeling sick :</h2></p>
 <input id="demo" type="text">
 <button type="button" onclick="myFunction()">Click</button>
@@ -88,7 +88,24 @@ function myFunction() {
     message.innerHTML = "The message you have put is " + err;
   }
 }
+
+
 </script>
+
+<script>
+    function clickCounter() {
+      if (typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+          localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+          localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+      } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+      }
+    }
+    </script>
         </div>
     </header>
 </body>
@@ -100,7 +117,8 @@ function myFunction() {
             <p><a href="https://www.cdc.gov/cdc-info/index.html">Visit CDC-INFO</a></p>
             <div class="contact">
                 <p>Call: 0800-232-4636<br>Email: <a href="CDC-INFO@gmail.com">CDC-INFO@gmail.com</a></p>
-                <p><a href="registrer.html" target="_blank">Register</a></p>
+                <p><a href="registrer.html" target="_blank" onclick="clickCounter()">Register</a></p>
+                <div id="result"></div>
             </div>
         
         </div>
