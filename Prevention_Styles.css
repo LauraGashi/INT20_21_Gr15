@@ -215,7 +215,7 @@ textarea{
      position: relative;
      animation-name: example;
      animation-duration: 5s;
-     animation-iteration-count: 3;
+     animation-iteration-count: 10;
    }
    
    @keyframes example {
@@ -336,5 +336,9 @@ button:hover
 {
      margin-top: 40px;
 
+}
+.bgg-image button
+{
+     margin-bottom: 100px;
 }
 

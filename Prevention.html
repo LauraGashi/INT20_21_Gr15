@@ -37,7 +37,17 @@
     }
     </script>
 
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#p1").mouseenter(function(){
+    alert("You entered p1!");
+  });
+});
+</script>  
+
+
+
 </head>
 <body>
     <header>
@@ -99,10 +109,10 @@
             <li><a href="hand.html" target="_blank" style="color: white;">Check how you wash hand</a></li>
         </div>
     </div>
-    <div class="bgg-image" style="height: 650px; background-color: #B3B6B7;">
+    <div class="bgg-image" style="height: 700px; background-color: #B3B6B7;">
         <img src="Imazhet/steps.png" align="right" style="width:400px";>
         <h1>Take steps to protect others</h1></br></br>
-        <p style="font-size: 25px; margin-left: 30px;">
+        <p id="p1" style="font-size: 25px; margin-left: 30px;">
             Stay home if you’re sick – Stay home if you are sick, except to get medical care.
         </p></br>
         <p style="font-size: 25px; margin-left: 30px;">
@@ -123,7 +133,7 @@
         <p style="font-size: 25px; margin-left: 30px;">
             Dedicated, lined trash can – If possible, dedicate a lined trash can for the ill person. Use gloves when removing garbage bags, and handling & disposing of trash.
         </p></br>
-
+        
     </div>
 
     <footer class="footer">
