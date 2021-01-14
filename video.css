@@ -152,6 +152,7 @@ button:hover
 .container{
     width: 50%;
     margin: 50px auto;
+
 }
 
 .container h1{
@@ -159,6 +160,7 @@ button:hover
     color: #fff;
     font-size: 44px;
     text-align: center;
+    
 }
 .row{
     display:flex;
