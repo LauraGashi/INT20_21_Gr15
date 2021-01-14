@@ -14,9 +14,24 @@
                var ctx = c.getContext('2d');
                ctx.font = "30px Arial";
                ctx.strokeText("Covid-19",10,50);
-      
+             
       
             </script>
+
+<p id="demo"></p>
+<script>function Covid(first,second,third){
+    this.first=first;
+    this.second=second;
+    this.third=third;
+
+
+}
+
+var words = new Covid("Safe ","Informed","Prepared");
+document.getElementById("demo").innerHTML =
+"Be " + words.first + ","+words.second+", "+words.third+"."; 
+
+</script>
                <nav class="topnav" id="myTopnav">
 
                 <a href="front-page.html"class="active">  Home</a>
