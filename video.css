@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+
+.header{ grid-area: header;}
+.logo img{
+    width: 150px;
+    float:left;
+    height: 50px;
+}
+
+.Info_Covid_div
+{
+    color: black;
+    padding-top: 170px;
+    margin:  auto auto;
+    font-size: 25px;
+    text-overflow: clip;
+    text-justify: auto;
+    text-align: center;
+}
+
+.virusi1 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+  }
+  
+  @keyframes example {
+    0%   { left:0px; bottom:0px;}
+    75%  { left:0px; bottom:300px;}
+    100% { left:0px; bottom:0px;}
+  }
+  .virusi2 {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+.bg-image {
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+  }
+.bg-image .bg-image2
+{
+    width: 300px;
+    margin-left: 30px;
+}
+.bg-image .bg-image2 img
+{
+    margin-left: 15px;
+}
+.bg-image h1
+{
+    padding-top: 220px;
+    float: left;
+    font-size: 22px;
+    color: black;
+}
+.bg-image h2
+{
+    width: 200px;
+    margin-left: 40px;
+    color: black;
+}
+.bg-image li 
+{
+    display: inline-block;
+}
+
+button
+{
+    border: 4px solid black;
+    float: right;
+    color: black;
+    background-color:white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 130px;
+    margin-right: 15px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.bg-image .duartë
+{
+    border: none;
+    color: white;
+    padding: 10px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 170px 2px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+.soap h2
+{
+    width: 200px;
+    margin-left: 20px;
+}
+
+.soap li 
+{
+
+    display: inline-block;
+}
+
+.duartë a
+{
+    text-decoration: none;
+}
+
+.duartë:hover
+{
+    
+    transform: rotateY(180deg);
+}
+
+.bgg-image h1
+{
+    margin-left: 30px;
+    width: 800px;
+    padding-top: 10px;
+}
+.bgg-image img
+{
+    margin-top: 40px;
+
+}
+
+.container{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.container h1{
+    padding: 60px 0;
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+}
+.row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 150px;
+    
+}
+
+.feature-img{
+    width: 83%;
+    margin: auto;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden; 
+}
+.small-img-row{
+    display: flex;
+    background: #efefef;
+    margin: 20px 0;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 85%;
+}
+
+.small-img{
+position: relative;
+}
+.small-img img{
+    width: 95px;
+}
+
+.small-img-row{
+    margin-left: 20px;
+    color:rgba(1, 12, 12, 0.842);
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.play-btn{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); 
+    cursor: pointer;
+}
+
+.small-img .play-btn{
+width: 35px;
+}
+
+.video-player{
+    width: 55%;
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    transform: translate(-50%,-50%); 
+    display: none;
+}
+video:focus{
+    outline: none;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 35px;
+    cursor: pointer;
+}
