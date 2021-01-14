@@ -63,6 +63,23 @@ var marker= new google.maps.Marker({
 function myFunction() {
   document.getElementById("demo").innerHTML = Number.MAX_VALUE;
 }
+
+
 </script>
+<br><br>
+<head>
+  <title> Current Date and Time.</title>
+  <script type="text/javascript">
+    function getCurrentDate(){
+      var curDate=new Date();
+      document.getElementById("showDate").innerHTML = curDate.toString();
+    }
+  </script>
+</head>
+<body onLoad='getCurrentDate()' style="text-align: center">
+  <h1>Get current date using JavaScript.</h1>
+  <!--Here date and time will display-->
+  <h2 id="showDate"></h2>
+</body>
 </body>
 </html>
