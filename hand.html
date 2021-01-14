@@ -20,6 +20,18 @@
           }
         }
         </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(".btn1").click(function(){
+            $("#h1").hide();
+        });
+        $(".btn2").click(function(){
+            $("#h1").show();
+        });
+        });
+        </script>
 </head>
 <body >
     <script>document.body.style.backgroundColor="white";
@@ -36,7 +48,9 @@
         }
         setInterval(changeColor, 1000);
     </script>
-        <h1 style="text-align: center;">Follow steps to wash hands</h1>
+        <h1 id="h1" style="text-align: center;">Follow steps to wash hands</h1>
+        <button class="btn1" style="width: 65px; height: 30px; margin-left: 5px;">Hide</button>
+        <button class="btn2" style="width: 65px; height: 30px; margin-left: 5px;">Show</button>
         <div class="soap" style="height: 650px; margin-top: 100px;">
             <li>
                 <img src="Imazhet/hand-a.png" style="width: 200px; height: 200px; border-radius: 50%;">
