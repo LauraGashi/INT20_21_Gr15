@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="video.css">
     <title>Document</title>
+
+    <script>
+        function clickCounter() {
+          if (typeof(Storage) !== "undefined") {
+            if (sessionStorage.clickcount) {
+              sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+            } else {
+              sessionStorage.clickcount = 1;
+            }
+            document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+          } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+          }
+        }
+        </script>
 </head>
 <body >
     <script>document.body.style.backgroundColor="white";
@@ -57,16 +72,17 @@
         <div class="row">
             <div class="col">
               <div class="feature-img">
-                  <img src="Imazhet/137576875_10158175701292582_8767847500487272840_o.png" width="120%">
+                  <img onclick="clickCounter()" src="Imazhet/137576875_10158175701292582_8767847500487272840_o.png" width="120%">
               <img src="Imazhet/play.png" class="play-btn" 
               onclick="playVideo('Recognizing Day to Day Signs and Symptoms of Coronavirus.mp4')">
+              <div id="result"></div>
                 </div>
             </div>
             <div class="col">
                 <div class="small-img-row">
                     <div class="small-img">
                         <img src="Imazhet/wash-your-hands-vector-illustration-hand-drawing-hand-washing-drawing-cartoon-style-personal-hygiene-wash-your-hands-vector-176739130.jpg">
-                        <img src="Imazhet/play.png" class="play-btn"
+                        <img src="Imazhet/play.png" class="play-btn" 
                         onclick="playVideo('Coronavirus How to wash your hands.mp4')">
                     </div>
                     <p>To prevent the spread of germs, including COVID-19,washing hands with soap.</p>
