@@ -47,26 +47,15 @@ $(document).ready(function(){
 </script>  
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script> 
+<script>
 $(document).ready(function(){
-  $("#flip").click(function(){
-    $("#panel").slideToggle("slow");
+  $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
   });
 });
 </script>
-<style> 
-#panel, #flip {
-  padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
-}
-
-#panel {
-  padding: 50px;
-  display: none;
-}
-</style>
 
 </head>
 <body>
@@ -85,8 +74,18 @@ $(document).ready(function(){
                 </div>
             </ul>
         </div>
+
+        <div style="display: inline-block; display: inline-flex; margin-left: 20px;">
+            <button style="width: 300px; margin-top: 1px;">Click to fade in/out boxes</button><br>
+            <div id="div1" style="width:30px;height:30px;background-color:red;"></div>
+            <br>
+            <div id="div2" style="width:30px;height:30px;background-color:green;"></div>
+            <br>
+            <div id="div3" style="width:30px;height:30px;background-color:blue;"></div>
+        </div>
+       
         <div class="Info_Covid_div">
-            <img src="Imazhet/maska.svg" style="width: 130px; height: 130px;">
+            <img src="Imazhet/maska.svg" style="width: 130px; height: 130px; ">
             <h1 style="margin-inline-end: 20px;">Learn how COVID-19 spreads and practice these actions to help prevent the spread of this disease.</h1>
         </div>
         <div class="virusi">
