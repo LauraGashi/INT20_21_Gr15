@@ -141,9 +141,17 @@
                     </ul>    
         
                 </div>
+                
         
             </div>
         </div>
+
+        
+        <div class="about_slogan"> 
+            <h2 class="statistics"></h2>
+        </div>
+
+        <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" style="border-top: transparent;" width="100%" height="600px"></iframe>
 
         <footer class="footer">
             <div class="footer-content">
@@ -198,20 +206,15 @@
       $('p.paragraph_style span').css("font-weight","bold");
 
       $('.box-icon img').addClass('responsive-img');
-  </script>
-</html>
 
-<script>
+      $('.about_slogan h2.statistics').append("Covid-19 Statistics and More");
 
-$(document).ready(function()
-{
-    $(".safe_button").css("display","none");
-    $(".button1").click(function(){
+
+      $(".safe_button").css("display","none");
+      $(".button1").click(function(){
         $(".safe_button").show("slow",function(){})
 
     });
 
-
-
-});
-</script>
+  </script>
+</html>
