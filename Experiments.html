@@ -34,6 +34,7 @@ $(document).ready(function(){
     </style>
 </head>
 <html>
+  <body>
 <header>
 
 
@@ -90,7 +91,7 @@ function myFunction2() {
 
 
   </header>
-  <body>
+  
     <p>Click the button to do a global search for "Covid" in a string.</p>
 
     <button onclick="myFunction1()">Try it</button>
@@ -113,17 +114,17 @@ function myFunction2() {
       <circle r="70" cx="125" cy="125" fill="none" stroke="blue" stroke-width="10" />
       <polygon fill="pink" points="50,50 125,125 200,50  200,200 125,125 50,200 "></polygon>
 
-
+    
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("button").click(function(){
+  $("#b5").click(function(){
     $("#div1").remove();
   });
 });
 </script>
-</head>
-<body>
+
+
 
 <div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
 
@@ -134,7 +135,7 @@ This is some text in the div.
 </div>
 <br>
 
-<button>Remove div element</button>
+<button id="b5">Remove div element</button>
 
   </body>
 
