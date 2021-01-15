@@ -1,28 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="experiments.css">
-  <style>
-    div.ex2 {
-        margin: 10px;
-        border: 1px solid black;
-        background-color: rgb(126, 187, 129);
-        outline: 5px dashed blue;
-        outline-offset: 5px;
-        resize: vertical; overflow: auto;
-      } 
-      </style>
-    <title>Experiments</title>
-</head>
-<body>
-    
 
+=======
+<p> ToString Method</p>
+<button onclick="myFunction()">Try it</button>
 
-    <div class="ex2"><p> Wear mask,wash hand don't be Pneumonoultramicroscopicsilicovolcanoconiosis.</p>
-        <button>Overflow Wrap</button></div>
-       
-        <script src="wrap.js"></script>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "Be Safe!";
+  var res = str.toString();
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+<!--Funksioni per toexponencial -->
+<br><br>
+<script>
+function expo(x, f) {
+    return Number.parseFloat(x).toExponential(f);
+  }
+  
+  console.log(expo(123456, 2));
+  // expected output: "1.23e+5"
+  
+  console.log(expo('123456'));
+  // expected output: "1.23456e+5"
+  
+  console.log(expo('oink'));
+  // expected output: "NaN"
+</script>
+
+>>>>>>> 8d6f51c59bf75b6687c2fca7951b6ceb3d33cd33
 </body>
 </html>
