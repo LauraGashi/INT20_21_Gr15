@@ -2,21 +2,6 @@
 <!DOCTYPE html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="experiments.css">
-  <style>
-    div.ex2 {
-        margin: 10px;
-        border: 1px solid black;
-        background-color: rgb(126, 187, 129);
-        outline: 5px dashed blue;
-        outline-offset: 5px;
-        resize: vertical; overflow: auto;
-        margin-top: 30px;
-      } 
-
-
-      </style>
-
 <script>
 $(document).ready(function(){
   $("#btn1").click(function(){
@@ -28,9 +13,25 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="experiments.css">
+<style>
+  div.ex2 {
+      margin: 10px;
+      border: 1px solid black;
+      background-color: rgb(126, 187, 129);
+      outline: 5px dashed blue;
+      outline-offset: 5px;
+      resize: vertical; overflow: auto;
+      margin-top: 30px;
+    } 
+
+
+    </style>
 </head>
 <html>
-<body>
+<header>
 
 
 <p> ToString Method</p>
@@ -56,21 +57,17 @@ $(document).ready(function(){
 <button id="btn1">Append text</button>
 <button id="btn2">Append list items</button>
 
-
-
-
 <div class="ex2"><p> Wear mask,wash hand.....</p>
 
 
   <div>
     <p>Click the button to do a case-insensitive search for "Coronavirus" in a string.</p>
 
-<button onclick="myFunction()">Click</button>
+<button onclick="myFunction2()">Click</button>
 
 <p id="cov"></p>
-
 <script>
-function myFunction() {
+function myFunction2() {
   var str = "Coronavirus is a 2019 virus.";
   var patt1 = /Coronavirus/i;
   var result = str.match(patt1);
@@ -79,17 +76,33 @@ function myFunction() {
 </script>
 
   </div>
+<script>
+    function myFunction() {
+      var str = "Be safe!";
+      var res = str.toString();
+      document.getElementById("demo").innerHTML = res;
+    }
+    </script>
 
 
 
+  </header>
+  <body>
+    <p>Click the button to do a global search for "Covid" in a string.</p>
 
-
-
-
-
-
+    <button onclick="myFunction1()">Try it</button>
     
-</body>
+    <p id="demo11"></p>
+    
+    <script>
+    function myFunction1() {
+      var str = "Covid-19.";
+      var patt1 = /Covid/g;
+      var result = str.match(patt1);
+      document.getElementById("demo11").innerHTML = result;
+    }
+    </script>
+  </body>
 
 
 </html>
