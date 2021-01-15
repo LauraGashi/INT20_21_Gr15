@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="CuntactUs.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    var div = $("#d1");  
+    div.animate({left: '100px'}, "slow");
+    div.animate({fontSize: '3em'}, "slow");
+  });
+});
+</script> 
 </head>
 <body>
     <header>
@@ -16,11 +27,16 @@
             <a href="simptomat.html">Symptoms</a>
             <a href="Prevention.html">Prevention</a>
             <a href="treatments.html" >Treatments</a>
-            <a href="vaccines.html">Vaccine</a>
+            <a href="vaccines.html">Vaccines</a>
             <a href="ContactUs.html"class="active">Contact</a>
     
         </nav>
         </div>
+
+        
+        <button>Start Animation</button>
+        <div id="d1" style="background:#3fa1f1;height:60px;width:170px;position:absolute;">Contact</div>
+
 
         <div class="Contact">
             <h1>CONTACT US</h1></br></br>
@@ -37,7 +53,7 @@
         <div class="name">
             <h1>Contact Us</h1></br>
             <form action="">
-            <label for="fname" style="font-size: 25px;">Full name:</label>
+            <label for="fname" style="font-size: 25px;">Full name</label>
             <input type="text" id="fname" name="fname" style="width: 300px; height: 45px;"><br><br>
            
             <label for="Message" style="font-size: 25px;">Your Message</label>
@@ -59,13 +75,13 @@
                 <body>  
                 <form name="myform"  method="post" action="#" onsubmit="return validateemail();">  
                   <label for="Email" style="font-size: 25px;">Email</label>
-                  <input type="text" name="email" style="width: 300px; height: 45px; font-size: 25px; "><br/> <br> <br> 
+                  <input type="text" name="email" style="width: 300px; height: 45px; font-size: 25px; " autocomplete="off"><br/> <br> <br> 
                 
                 <input type="submit" value="Contact" style=" width: 150px; height: 30px; font-size: 18px;" >  
                 </form>  
         </div>
 
-        <div class="text">
+        <div class="text" style="margin-left: 30px;">
 
 <br><br>
            <p><h2>Please input the number of days you been feeling sick :</h2></p>
