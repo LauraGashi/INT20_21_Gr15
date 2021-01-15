@@ -52,10 +52,10 @@ header{
       display: none;
     }
 
-section{
-  width:80%;
-  margin-left:10%;
-}
+    section{
+      width:80%;
+      margin-left:10%;
+    }
 .vija{
   margin-top: 10px;
   display: grid;
