@@ -38,7 +38,7 @@
 
             <a href="front-page.html">Home</a>
             <a href="aboutCorona.html">About</a>
-            <a href="simptomat.html">Symptoms</a>
+            <a href="Siimptomatt.html">Symptoms</a>
             <a href="Prevention.html">Prevention</a>
             <a href="treatments.html" class="active">Treatments</a>
             <a href="vaccines.html">Vaccine</a>
@@ -51,6 +51,8 @@
         <div class="about_slogan">
             <h1>Coronavirus (COVID-19) <br>Treatment</h1>
             <p class="paragraph_style">The most common symptoms of <span>COVID-19</span> are a fever, coughing, and breathing problems.</p>
+            <button class="button1">A message for you!</button>
+            <div class="safe_button">Stay Safe</div>
         </div>
 
         <div class="table_row">
@@ -198,3 +200,18 @@
       $('.box-icon img').addClass('responsive-img');
   </script>
 </html>
+
+<script>
+
+$(document).ready(function()
+{
+    $(".safe_button").css("display","none");
+    $(".button1").click(function(){
+        $(".safe_button").show("slow",function(){})
+
+    });
+
+
+
+});
+</script>

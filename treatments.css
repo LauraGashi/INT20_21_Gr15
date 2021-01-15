@@ -67,6 +67,22 @@ body {
     font-weight: bold;
   } */
 
+  .button1{
+    border: 1px solid #33334f;
+    padding: 11px 18px;
+    background-color:#33334f;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .button1:hover{
+    border: 1px solid #33334f;
+    background-color: white;
+    color: #33334f;
+  }
+
+
   .table_row{
     display: flex;
     margin: 0 auto;
