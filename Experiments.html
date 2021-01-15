@@ -57,6 +57,28 @@ $(document).ready(function(){
 
 <div class="ex2"><p> Wear mask,wash hand.....</p>
 
+
+  <div>
+    <p>Click the button to do a case-insensitive search for "Coronavirus" in a string.</p>
+
+<button onclick="myFunction()">Click</button>
+
+<p id="cov"></p>
+
+<script>
+function myFunction() {
+  var str = "Coronavirus is a 2019 virus.";
+  var patt1 = /Coronavirus/i;
+  var result = str.match(patt1);
+  document.getElementById("cov").innerHTML = result;
+}
+</script>
+
+  </div>
+</div>
+
+
+
     
 </body>
 
