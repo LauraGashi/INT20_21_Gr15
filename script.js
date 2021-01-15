@@ -10,7 +10,7 @@ worker.addEventListener('message',({data})=>{
 const now =performance.now();
 
 worker.postMessage({type:'cmd',action:'countTo2Billion'})
-console.log('Time taken is ${performance.now()-now}')
+console.log('Time taken is ${performance.now()-now}');
 
 
 
