@@ -1,8 +1,7 @@
 
  
  body {
-    padding: 20px;
-    font-size: 20px;
+    
     margin: 0;
     font-family: Poppins, Helvetica, sans-serif;
     overflow-x:hidden;
@@ -11,28 +10,4 @@
     background-attachment: fixed;
   }
    
-    h2 {
-      text-align: center;
-      margin-bottom: 14px;
-    }
     
-    p {
-      margin: 0 auto;
-      max-width: 300px;
-      border: solid 2px #ccc;
-      padding: 12px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
-  }
-    
-    button {
-      display: block;
-      margin: 20px auto;
-    }
-    
-    .ow {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      hyphens: auto;
-    }
-  
-  
