@@ -150,9 +150,9 @@ color: #33334f;
 
 .footer{
   background-color: #1c1c1c;
-  height: 400px;
+  height: 250px;
   position: relative;
-  padding: 0 10%;
+  padding: 15px 10%;
   }
   .footer .footer-bottom{
       text-align: left;
@@ -165,7 +165,7 @@ color: #33334f;
   }
   .footer .footer-content{
       border-bottom: 1px solid #000000;
-      height: 350px;
+      height: 200px;
       display: flex;
   }
   .footer .footer-content .footer-section{
@@ -214,8 +214,7 @@ color: #33334f;
       padding: 0;
   }
   .footer .footer-content .links ul a{
-      border-bottom: 1px solid #232323;        
-      color:#2aa2d4;
+      border-bottom: 1px solid #232323;     
       text-decoration: none;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-size: 12px;
@@ -249,6 +248,7 @@ color: #33334f;
       height: 31px;
       border-radius: 7px;
       background-color: #2aa2d4;
+      
   }
   textarea{
       border: 0px;
