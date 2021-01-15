@@ -16,6 +16,15 @@ $(document).ready(function(){
   });
 });
 </script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#b8").click(function(){
+    alert("Text: "+ $("#test").text());
+  });
+});
+</script>
 </head>
 <body>
     <header>
@@ -84,7 +93,8 @@ $(document).ready(function(){
         <div class="text" style="margin-left: 30px;">
 
 <br><br>
-           <p><h2>Please input the number of days you been feeling sick :</h2></p>
+           <p><h2 id="test">Please input the number of days you been feeling sick :</h2></p>
+           <button id="b8">Show text</button>
 <input id="demo" type="text">
 <button type="button" onclick="myFunction()">Click</button>
 <p id="p01"></p>
