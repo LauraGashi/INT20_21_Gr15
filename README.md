@@ -2,4 +2,4 @@
 Projekti semestral nga lenda Interneti
 
 #Host
-[Link for our web]{https://int20-21-corona.netlify.app/}
+[Link for our web](https://int20-21-corona.netlify.app/)
