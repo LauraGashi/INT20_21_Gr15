@@ -13,5 +13,4 @@ worker.postMessage({type:'cmd',action:'countTo2Billion'})
 console.log('Time taken is ${performance.now()-now}');
 
 
-
 alert("Something on UI thread");
