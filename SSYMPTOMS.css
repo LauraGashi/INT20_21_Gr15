@@ -212,9 +212,9 @@ Background
     width:300px;
     text-align: left;
     position:absolute;
-    right:200px;
-    left:400px;
-    bottom:-745px;
+    right:250px;
+    left:530px;
+    bottom:-620px;
     font-size: 20px;
 }
 
@@ -222,9 +222,9 @@ Background
 
     width:340px;
     position:absolute;
-    left:790px;
-    right:790px;
-    bottom:-700px;
+    left:990px;
+    right:390px;
+    bottom:-580px;
     font-size: 20px;
 }
 
@@ -314,7 +314,6 @@ body{
 
             
         a:link{color:rebeccapurple;}
-        a:active{color:red;}
         a:hover{opacity: 0.6;}
 
         .Video{
