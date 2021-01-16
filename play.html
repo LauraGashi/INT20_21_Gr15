@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="play.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch The Insect</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>What is your "favorite" insect?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fly</p>
+            <img src="http://pngimg.com/uploads/fly/fly_PNG3946.png" alt="fly">
+          </button>
+        </li>
+
+        <li>
+            <button class="choose-insect-btn">
+              <p>Butterfly</p>
+              <img src="https://lh3.googleusercontent.com/proxy/rNegoX0c-Cpj9Zl0N8qgyHB-u1eIwEQpjO8asnljgKg2LrMkjpU3E0pvY-wRMJiBg-_mJKVjjTaDjlelvcZXw20BJcj1HglO4e1n56BLUs4y54KWo9NvTmZGMUY" alt="butterfly">
+            </button>
+          </li>
+        
+        <li>
+          <button class="choose-insect-btn">
+            <p>Spider</p>
+            <img
+               src="http://pngimg.com/uploads/spider/spider_PNG12.png"
+               alt="spider"/>
+          </button>
+        </li>
+
+        <li>
+            <button class="choose-insect-btn">
+              <p>Ant</p>
+              <img
+                 src="https://i.pinimg.com/originals/9d/27/99/9d27995a68fd7279725141d6b32a00ff.png"
+                 alt="Ant"/>
+            </button>
+          </li>
+        
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Are you annnoyed yet? 😛 <br>
+        This is an impossible game!!
+      </h5>
+    </div>
+
+    <script src="play.js"></script>
+  </body>
+</html>
