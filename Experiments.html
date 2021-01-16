@@ -124,6 +124,21 @@ $(document).ready(function(){
 });
 </script>
 
+<p>Click the button to display the exponential notation of a specified number.</p>
+
+<button onclick="myFunction3()">Try it</button>
+
+<p id="demo12"></p>
+
+<script>
+function myFunction3() {
+  var num = 5.56789;
+  var n = num.toExponential();
+  document.getElementById("demo12").innerHTML = n;
+}
+</script>
+
+
 
 
 <div id="div1" style="height:100px;width:300px;border:1px solid black;background-color:yellow;">
