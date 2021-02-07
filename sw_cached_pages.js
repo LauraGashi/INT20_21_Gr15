@@ -1,7 +1,7 @@
 const cacheName='v1';
 
 const cacheAssets= [
-    'front-page.html' ,
+    'index.html' ,
 'main.js',
 '/Imazhet/new_bg.jpg'
 ];
