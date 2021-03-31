@@ -1,7 +1,7 @@
 const cacheName='v1';
 
 const cacheAssets= [
-    'front-page.html' ,
+    'index.html' ,
 'main.js',
 '/Imazhet/new_bg.jpg'
 ];
@@ -48,3 +48,7 @@ self.addEventListener('fetch',e=>{
     console.log('Service Worker: Fetching');
     e.respondWith(fetch(e.request).catch(() => caches.match(e.request)))
 });
+
+
+
+    
